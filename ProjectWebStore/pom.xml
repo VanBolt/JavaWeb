@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ru.vanbolt</groupId>
-  <artifactId>MyProject</artifactId>
+  <groupId>ru.bolotov</groupId>
+  <artifactId>ProjectWebStore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>My Project</name>
-  <description>FirstProject</description> 
-  <properties>
+  <name>WebStore</name>
+  
+  	<properties>
         <com.h2database.h2.version>1.4.187</com.h2database.h2.version>
         <mysql.mysql-connector-java.version>5.1.35</mysql.mysql-connector-java.version>
         <org.hibernate.hibernate-core.version>4.3.10.Final</org.hibernate.hibernate-core.version>
     </properties>
-
-
-    <dependencies>
+  
+  
+  	<dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -47,4 +47,5 @@
             <version>2.3.1</version>
         </dependency>
     </dependencies>
+  
 </project>

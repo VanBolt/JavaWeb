@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset = "UTF-8">
+<title>MyWebPage</title>
+	<body>
+		<form method = "get" action = "MyServlet">
+		<table>
+			<tr>
+				<td>Имя</td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td>Фамилия</td> 
+				<td><input type= "text" name = "secondName"></td>
+			</tr>
+			<tr>
+				<td>Профессия</td>
+				<td>
+					<select name = "job" multiple="3">
+						<option value = "Developer">Developer</option>
+						<option selected value = "Tester">Tester</option>
+						<option value = "Analyst">Analyst</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Sex</td>
+				<td>
+					<input type = "radio" name = "gender" value = "M">Male<br>
+					<input type = "radio" name = "gender" value = "F">Female<br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>More than 18 years?</td>
+				<td>
+					<input type = "checkbox" name = "age18" value = "Yes"><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><input type = "submit" value ="ok"></td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</head>
+</html>
